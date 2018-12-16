@@ -14,4 +14,4 @@ RUN npm install -g express-generator@4.16.0
 WORKDIR /app
 
 # ポート3000番を開放する
-EXPOSE 2000
+EXPOSE 3000
