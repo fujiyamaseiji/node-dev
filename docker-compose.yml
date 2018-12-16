@@ -6,6 +6,6 @@ services:
     container_name: nodejs
     tty: true
     volumes:
-      - ./node/app:/app
+      - ./nodejs/app:/app
     ports:
       - "8080:2000"
